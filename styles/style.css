@@ -49,7 +49,6 @@ html {
 body {
     font-family: 'General Sans', sans-serif;
     background-color: var(--clr-light);
-    color: var(--clr-neutral-dark);
 }
 
 img,
@@ -60,4 +59,22 @@ svg {
     display: block;
     max-width: 100%;
     user-select: none;
+}
+
+/* clear default button style */
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    color: var(--clr-light-highlight);
 }
