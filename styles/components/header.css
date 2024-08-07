@@ -5,7 +5,6 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     position: relative;
-    border: 1px solid black;
 }
 
 .header__menu {
@@ -53,6 +52,11 @@
         color: var(--clr-light-header-text);
         width: var(--size-base);
         height: var(--size-base);
+        transition: color 0.3s;
+    }
+
+    .header__moon:hover {
+        color: var(--clr-dark);
     }
 
     .header__resume {
@@ -79,9 +83,3 @@
         font-size: var(--size-sm);
     }
 }
-
-/* xl screen */
-/* @media (min-width: 1280px) {} */
-
-/* 2xl screen */
-/* @media (min-width: 1536px) {} */
