@@ -1,6 +1,6 @@
 /* ======== create 6 media queries ======== */
 /* xs screen */
-/* @media(min-width: 475px) {}
+/* @media(min-width: 475px) {} */
 
 /* sm screen */
 /* @media(min-width: 640px) {} */
@@ -18,74 +18,75 @@
 /* @media (min-width: 1536px) {} */
 
 .btn {
-    display: inline-block;
-    font-weight: 600;
-    letter-spacing: -0.05em;
-    background-color: var(--clr-light-btn);
-    color: var(--clr-light);
-    padding: 0.5em 1em;
-    border-radius: 8px;
-    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  background-color: var(--clr-light-btn);
+  color: var(--clr-light);
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s, color 0.3s;
 }
 
 .btn:hover {
-    transform: translateY(-3px);
-    color: var(--clr-light-highlight);
-    background-color: var(--clr-light-text);
-    box-shadow: 0 10px 20px rgba(139, 149, 113, 0.5), 0 6px 6px rgba(139, 149, 113, 0.5), 0 0 35px rgba(139, 149, 113, 0.9);
+  transform: translateY(-3px);
+  color: var(--clr-light-highlight);
+  background-color: var(--clr-light-text);
+  box-shadow: 0 10px 20px rgba(139, 149, 113, 0.5),
+    0 6px 6px rgba(139, 149, 113, 0.5), 0 0 35px rgba(139, 149, 113, 0.9);
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
 }
 
 .section {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 /* ======== create 6 media queries ======== */
 /* xs screen */
-@media(min-width: 475px) {
-    .container {
-        max-width: 475px;
-    }
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
 }
 
 /* sm screen */
-@media(min-width: 640px) {
-    .container {
-        max-width: 640px;
-    }
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
 }
 
 /* md screen */
 @media (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
+  .container {
+    max-width: 768px;
+  }
 }
 
 /* lg screen */
 @media (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
+  .container {
+    max-width: 1024px;
+  }
 }
 
 /* xl screen */
 @media (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
+  .container {
+    max-width: 1280px;
+  }
 }
 
 /* 2xl screen */
 @media (min-width: 1536px) {
-    .container {
-        max-width: 1536px;
-    }
+  .container {
+    max-width: 1536px;
+  }
 }
