@@ -5,5 +5,6 @@ import '../styles/components/intro.css';
 import '../styles/components/about.css';
 import '../styles/components/education.css';
 import '../styles/components/featured.css';
+import '../styles/components/contact.css';
 import '../styles/ultis.css';
 
