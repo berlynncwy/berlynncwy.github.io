@@ -6,5 +6,7 @@ import '../styles/components/about.css';
 import '../styles/components/education.css';
 import '../styles/components/featured.css';
 import '../styles/components/contact.css';
+import '../styles/components/footer.css';
+
 import '../styles/ultis.css';
 
