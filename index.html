@@ -1,307 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio</title>
-        <link
-            href="https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500,600,700&display=swap"
-            rel="stylesheet"
-        />
-        <!-- <link rel="stylesheet" href="styles/style.css" />
-        <link rel="stylesheet" href="styles/utils.css" />
-        <link rel="stylesheet" href="styles/components/about.css" />
-        <link rel="stylesheet" href="styles/components/contact.css" />
-        <link rel="stylesheet" href="styles/components/education.css" />
-        <link rel="stylesheet" href="styles/components/featured.css" />
-        <link rel="stylesheet" href="styles/components/footer.css" />
-        <link rel="stylesheet" href="styles/components/header.css" />
-        <link rel="stylesheet" href="styles/components/intro.css" />
-        <link rel="stylesheet" href="styles/components/mobile-nav.css" />
-        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" -->
-        <script type="module" src="/src/main.js"></script>
-    </head>
-    <body>
-        <header class="header container">
-            <nav>
-                <ul class="header__menu">
-                    <li><a class="header__link" href="#about">About</a></li>
-                    <li>
-                        <a class="header__link" href="#education">Education</a>
-                    </li>
-                    <li><a class="header__link" href="#featured">Work</a></li>
-                    <li><a class="header__link" href="#contact">Contact</a></li>
-                    <li class="header__line"></li>
-                    <li>
-                        <button class="header__moon">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                            >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z"
-                                    clip-rule="evenodd"
-                                />
-                            </svg>
-                        </button>
-                    </li>
-                    <li><a class="header__resume btn" href="">Resume</a></li>
-                </ul>
-                <button class="header__bars">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                        />
-                    </svg>
-                </button>
-            </nav>
-        </header>
-        <!-- mobile navigation -->
-        <div class="mobile-nav">
-            <nav>
-                <ul class="mobile-nav__menu">
-                    <li class="mobile-nav__link" href="#about">About</li>
-                    <li class="mobile-nav__link" href="#education">
-                        Education
-                    </li>
-                    <li class="mobile-nav__link" href="#featured">Work</li>
-                    <li class="mobile-nav__link" href="#contact">Contact</li>
-                    <li class="mobile-nav__link-line"></li>
-                    <li>
-                        <button class="mobile-nav__moon">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                            >
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z"
-                                    clip-rule="evenodd"
-                                />
-                            </svg>
-                        </button>
-                    </li>
-                    <li><a class="mobile-nav__btn btn" href="">Resume</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- end of mobile navigation -->
-        <main>
-            <section class="intro container">
-                <img
-                    class="intro__img"
-                    src="/public/memoji.png"
-                    alt="my-memoji"
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="stylesheet" href="./styles/components/about.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/education.css" />
+    <link rel="stylesheet" href="./styles/components/featured.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/intro.css" />
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css" />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li><a class="header__link" href="#about">About</a></li>
+          <li>
+            <a class="header__link" href="#education">Education</a>
+          </li>
+          <li><a class="header__link" href="#featured">Work</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__moon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z"
+                  clip-rule="evenodd"
                 />
-                <div class="intro__div">
-                    <h1 class="intro__title">Hello!👋🏻</h1>
-                    <h2 class="intro__description">
-                        I'm Berlynn, a motivated software developer with a
-                        strong passion for
-                        <span class="highlight">frontend</span> development
-                        focused on creating intuitive and beautiful user
-                        interfaces.
-                    </h2>
-                </div>
+              </svg>
+            </button>
+          </li>
+          <li><a class="header__resume btn" href="">Resume</a></li>
+        </ul>
+        <button class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- mobile navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li class="mobile-nav__link" href="#about">About</li>
+          <li class="mobile-nav__link" href="#education">Education</li>
+          <li class="mobile-nav__link" href="#featured">Work</li>
+          <li class="mobile-nav__link" href="#contact">Contact</li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button class="mobile-nav__moon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+          <li><a class="mobile-nav__btn btn" href="">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end of mobile navigation -->
+    <main>
+      <section class="intro container">
+        <img class="intro__img" src="./public/memoji.png" alt="my-memoji" />
+        <div class="intro__div">
+          <h1 class="intro__title">Hello!👋🏻</h1>
+          <h2 class="intro__description">
+            I'm Berlynn, a motivated software developer with a strong passion
+            for
+            <span class="highlight">frontend</span> development focused on
+            creating intuitive and beautiful user interfaces.
+          </h2>
+        </div>
 
-                <a
-                    class="intro__btn btn"
-                    href="mailto:berlynncwy@gmail.com"
-                    target="_blank"
-                    >Reach Out</a
-                >
-            </section>
-            <section id="about" class="about container section">
-                <div class="about__content">
-                    <h2 class="about__title">About</h2>
-                    <p class="about__description">
-                        Hello! I'm Berlynn Chew, and I recently graduated from
-                        Univerity of Essex with a degree in Computer Science. I
-                        initially pursued my studies in IT in my Polytechnic
-                        years, but chose not to enter the IT industry
-                        immediately after graduation because I felt I wasn’t
-                        quite ready.
-                    </p>
-                    <p class="about__description">
-                        Now, having completed my university studies, I’m
-                        enthusiastic about exploring opportunities in tech and
-                        applying my knowledge in a real-world setting.
-                    </p>
+        <a
+          class="intro__btn btn"
+          href="mailto:berlynncwy@gmail.com"
+          target="_blank"
+          >Reach Out</a
+        >
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            Hello! I'm Berlynn Chew, and I recently graduated from Univerity of
+            Essex with a degree in Computer Science. I initially pursued my
+            studies in IT in my Polytechnic years, but chose not to enter the IT
+            industry immediately after graduation because I felt I wasn’t quite
+            ready.
+          </p>
+          <p class="about__description">
+            Now, having completed my university studies, I’m enthusiastic about
+            exploring opportunities in tech and applying my knowledge in a
+            real-world setting.
+          </p>
 
-                    <hr class="about__hr" />
-                    <h3 class="about__subtitle">Technologies</h3>
-                    <div class="about__ul-container">
-                        <ul class="about__ul">
-                            <li class="about__list">JavaScript (ES6)</li>
-                            <li class="about__list">HTML</li>
-                            <li class="about__list">CSS</li>
-                            <li class="about__list">React</li>
-                        </ul>
-                        <ul class="about__ul">
-                            <li class="about__list">TailwindCSS</li>
-                            <li class="about__list">Node</li>
-                            <li class="about__list">MongoDB</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="about__img-wrapper">
-                    <img
-                        class="about__img"
-                        src="/public/memoji-wave.png"
-                        alt="profile-picture"
-                    />
-                </div>
-            </section>
-            <section id="education" class="edu container section">
-                <h2 class="edu__title">Education</h2>
-                <ul class="edu__ul">
-                    <li class="edu__list">
-                        <h3 class="edu__subtitle">
-                            University of Essex, Kaplan
-                        </h3>
-                        <p class="edu__description">
-                            Bachelor of Science in Computer Science
-                        </p>
-                        <p class="edu__description">2022 - 2024</p>
-                    </li>
-                    <li class="edu__list">
-                        <h3 class="edu__subtitle">Ngee Ann Polytechnic</h3>
-                        <p class="edu__description">
-                            Diploma in Information Technology, specialized in
-                            Business Data Analytics
-                        </p>
-                        <p class="edu__description">2013 - 2016</p>
-                    </li>
-                    <li class="edu__list">
-                        <h3 class="edu__subtitle">Singapore Polytechnic</h3>
-                        <p class="edu__description">
-                            Specialist Diploma in Digital Marketing and
-                            Analytics
-                        </p>
-                        <p class="edu__description">2017 - 2018</p>
-                    </li>
-                </ul>
-            </section>
-            <section id="featured" class="featured container section">
-                <div class="featured__wrapper">
-                    <h2 class="featured__subtitle">Final Year Project</h2>
-                    <h1 class="featured__title">Recipify</h1>
-                </div>
-                <p class="featured__description">
-                    Recipify is an e-commerce website that combines the joy of
-                    finding new recipes with the convenience of online grocery
-                    shopping. Recipfy comes with an admin panel for better
-                    management.
-                </p>
-                <div class="featured__info-container">
-                    <div>
-                        <h3 class="featured__label">Tech Stack</h3>
-                        <ul class="featured__tech-stack">
-                            <li class="featured__info">JavaScript</li>
-                            <li class="featured__info">HTML</li>
-                            <li class="featured__info">CSS</li>
-                            <li class="featured__info">ReactJS</li>
-                            <li class="featured__info">MongoDB</li>
-                            <li class="featured__info">NextJS</li>
-                            <li class="featured__info">ExpressJS</li>
-                            <li class="featured__info">TailwindCSS</li>
-                            <li class="featured__info">Stripe</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="featured__label">Project Type</h3>
-                        <p class="featured__info">MERN stack</p>
-                    </div>
-                    <div>
-                        <h3 class="featured__label">Timeline</h3>
-                        <p class="featured__info">July - December 2023</p>
-                    </div>
-                </div>
-                <div class="featured__img-container">
-                    <div class="featured__img-wrapper">
-                        <img
-                            src="/public/register.png"
-                            alt=" recipfy register-page"
-                        />
-                    </div>
-                    <div class="featured__img-wrapper">
-                        <img recipfy src="/public/login.png" alt="login-page" />
-                    </div>
-                    <div class="featured__img-wrapper">
-                        <img
-                            recipfy
-                            src="/public/recipe.png"
-                            alt="recipe-page"
-                        />
-                    </div>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">JavaScript (ES6)</li>
+              <li class="about__list">HTML</li>
+              <li class="about__list">CSS</li>
+              <li class="about__list">React</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">TailwindCSS</li>
+              <li class="about__list">Node</li>
+              <li class="about__list">MongoDB</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapper">
+          <img
+            class="about__img"
+            src="./public/memoji-wave.png"
+            alt="profile-picture"
+          />
+        </div>
+      </section>
+      <section id="education" class="edu container section">
+        <h2 class="edu__title">Education</h2>
+        <ul class="edu__ul">
+          <li class="edu__list">
+            <h3 class="edu__subtitle">University of Essex, Kaplan</h3>
+            <p class="edu__description">
+              Bachelor of Science in Computer Science
+            </p>
+            <p class="edu__description">2022 - 2024</p>
+          </li>
+          <li class="edu__list">
+            <h3 class="edu__subtitle">Ngee Ann Polytechnic</h3>
+            <p class="edu__description">
+              Diploma in Information Technology, specialized in Business Data
+              Analytics
+            </p>
+            <p class="edu__description">2013 - 2016</p>
+          </li>
+          <li class="edu__list">
+            <h3 class="edu__subtitle">Singapore Polytechnic</h3>
+            <p class="edu__description">
+              Specialist Diploma in Digital Marketing and Analytics
+            </p>
+            <p class="edu__description">2017 - 2018</p>
+          </li>
+        </ul>
+      </section>
+      <section id="featured" class="featured container section">
+        <div class="featured__wrapper">
+          <h2 class="featured__subtitle">Final Year Project</h2>
+          <h1 class="featured__title">Recipify</h1>
+        </div>
+        <p class="featured__description">
+          Recipify is an e-commerce website that combines the joy of finding new
+          recipes with the convenience of online grocery shopping. Recipfy comes
+          with an admin panel for better management.
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Tech Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">JavaScript</li>
+              <li class="featured__info">HTML</li>
+              <li class="featured__info">CSS</li>
+              <li class="featured__info">ReactJS</li>
+              <li class="featured__info">MongoDB</li>
+              <li class="featured__info">NextJS</li>
+              <li class="featured__info">ExpressJS</li>
+              <li class="featured__info">TailwindCSS</li>
+              <li class="featured__info">Stripe</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">MERN stack</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">July - December 2023</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img src="./public/register.png" alt=" recipfy register-page" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img recipfy src="./public/login.png" alt="login-page" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img recipfy src="./public/recipe.png" alt="recipe-page" />
+          </div>
 
-                    <div class="featured__img-wrapper">
-                        <img
-                            src="/public/recipe-info.png"
-                            alt=" recipfy recipe-info"
-                        />
-                    </div>
-                    <div class="featured__img-wrapper">
-                        <img
-                            src="/public/product.png"
-                            alt=" recipfy product-page"
-                        />
-                    </div>
+          <div class="featured__img-wrapper">
+            <img src="./public/recipe-info.png" alt=" recipfy recipe-info" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="./public/product.png" alt=" recipfy product-page" />
+          </div>
 
-                    <div class="featured__img-wrapper">
-                        <img
-                            src="/public/product-info.png"
-                            alt=" recipfy product-info"
-                        />
-                    </div>
-                    <div class="featured__img-wrapper">
-                        <img
-                            src="favourites.png"
-                            alt=" recipfy favourites-page"
-                        />
-                    </div>
+          <div class="featured__img-wrapper">
+            <img src="./public/product-info.png" alt=" recipfy product-info" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="./public/favourites.png" alt=" recipfy favourites-page" />
+          </div>
 
-                    <div class="featured__img-wrapper">
-                        <img src="cart.png" alt=" recipfy cart-page" />
-                    </div>
-                    <div class="featured__img-wrapper">
-                        <img recipfy src="admin-panel-1.png" alt="" />
-                    </div>
+          <div class="featured__img-wrapper">
+            <img src="./public/cart.png" alt=" recipfy cart-page" />
+          </div>
+          <div class="featured__img-wrapper">
+            <img recipfy src="./public/admin-panel-1.png" alt="" />
+          </div>
 
-                    <div class="featured__img-wrapper">
-                        <img src="admin-panel-2.png" alt=" recipfy " />
-                    </div>
-                </div>
-            </section>
-            <section id="contact" class="contact container section">
-                <h2 class="contact__title">Get In Touch</h2>
-                <p class="contact__description">
-                    I’d love to hear from you! Whether you have a project in
-                    mind, a question about my work, or just want to connect,
-                    feel free to reach out.
-                </p>
-                <a
-                    class="contact__btn btn"
-                    href="mailto:berlynncwy@gmail.com"
-                    target="_blank"
-                    >Reach Out</a
-                >
-            </section>
-        </main>
-        <footer class="footer container section">
-            <h3 class="footer__title">☁︎ Berlynn Chew ☁︎</h3>
-        </footer>
-    </body>
+          <div class="featured__img-wrapper">
+            <img src="./public/admin-panel-2.png" alt=" recipfy " />
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Touch</h2>
+        <p class="contact__description">
+          I’d love to hear from you! Whether you have a project in mind, a
+          question about my work, or just want to connect, feel free to reach
+          out.
+        </p>
+        <a
+          class="contact__btn btn"
+          href="mailto:berlynncwy@gmail.com"
+          target="_blank"
+          >Reach Out</a
+        >
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">☁︎ Berlynn Chew ☁︎</h3>
+    </footer>
+  </body>
 </html>
